@@ -1,4 +1,16 @@
-body{
+.text-passion{
+    font-family: 'Passion One', cursive;
+}
+
+.carousel-item{
+    height: 700px;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
+/*body{
     font-family: 'Quicksand', sans-serif;
     background-color: #CFCFCF;
 }
@@ -91,4 +103,4 @@ h2{
     background: #CFCFCF;
     color: #EE5C67;
     border-color: #EE5C67;
-}
+}*/
