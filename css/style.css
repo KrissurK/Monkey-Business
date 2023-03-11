@@ -1,6 +1,13 @@
 .text-passion{
     font-family: 'Passion One', cursive;
 }
+.text-comfortaa{
+    font-family: 'Comfortaa', cursive;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Passion One', cursive;
+}
 
 .carousel-item{
     height: 700px;
