@@ -2,94 +2,229 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Monkey Business</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="./css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monkey Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Passion+One:wght@400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg bg-accent-black text-passion">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-passion">
     <div class="navbar-brand">
-      <img src="./images/monkey_business_logo.svg" alt="logo" height="39">
+        <img src="images/monkey_business_logo.svg" alt="logo" height="39">
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav m-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            SAUCES
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Sauce 1</a>
-            <a class="dropdown-item" href="#">Sauce 2</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            RECIPES
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Recipe 1</a>
-            <a class="dropdown-item" href="#">Recipe 2</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    SAUCES
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Sauce 1</a>
+                    <a class="dropdown-item" href="#">Sauce 2</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    RECIPES
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Recipe 1</a>
+                    <a class="dropdown-item" href="#">Recipe 2</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+        </ul>
     </div>
     <div class="nav-extra">
-      <a href="#" class="nav-extra-item">
-        <img src="./images/mdi_magnify.svg" />
-      </a>
-      <a href="#" class="nav-extra-item">
-        <img src="./images/ic_outline-shopping-bag.svg" />
-      </a>
+        <a href="#" class="nav-extra-item">
+            <img src="images/mdi_magnify.svg" />
+        </a>
+        <a href="#" class="nav-extra-item">
+            <img src="images/ic_outline-shopping-bag.svg" />
+        </a>
     </div>
-  </nav>
-  <div class="hero position-relative mb-5">
-    <img src="./images/pexels-jj-jordan-8177840.jpg" class="img-fluid" height="569" alt="Hero image">
-    <div class="hero-text position-absolute">
-      <h1 class="text-passion">STAY SPICY</h1>
-      <div class="hero-sub-text">Hand-made hot sauces<br />with real head and real flavour</div>
-      <button class="btn btn-filled mt-5">SHOP NOW</button>
+</nav>
+<div id="carouselExampleCaptions" class="carousel slide main-carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="image-container">
+                <img src="images/index/Monkey_Business_hero_image.jpg" class="img-fluid d-block w-100 h-100" alt="Hero image">
+                <div class="overlay"></div>
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-passion">STAY SPICY</h1>
+                <p>Hand-made hot sauces<br />with real head and real flavour</p>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container">
+</div>
+<div class="container">
+    <div class="row mt-5 mb-5">
+        <div class="col-md-5">
+            <div class="image-container">
+                <img src="images/index/Monkey_Business_about.jpg" class="img-fluid" alt="">
+                <div class="overlay"></div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <h2>About</h2>
+            <p>
+                I love making food that makes people happy.
+            </p>
+            <p>
+                And I am on a mission to make banging condiments that become your household staples.Monkey Business was
+                created from a passion for chilis. As a life-long chili fan, Johan wanted a sauce that isn't just hot, but has
+                the real charactaristic flavour and heat of the chilis at it's core.
+            </p>
+            <p>
+                My products range from essential and rare spice varietals to proprietary rubs and blends.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container text-center mb-5">
     <div class="row">
-      <div class="col-md-5 p-5">
-        <img src="./images/pexels-jj-jordan-8177840.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-md-7 p-5">
-        <h2>About</h2>
-        <p>
-          I love making food that makes people happy.
-        </p>
-        <p>
-          And I am on a mission to make banging condiments that become your household staples.Monkey Business was
-          created from a passion for chilis. As a life-long chili fan, Johan wanted a sauce that isn't just hot, but has
-          the real charactaristic flavour and heat of the chilis at it's core.
-        </p>
-        <p>
-          My products range from essential and rare spice varietals to proprietary rubs and blends.
-        </p>
-      </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_spicy_kimchi.png" class="img-fluid d-block" alt="">
+            <h3>SPICY KIMCHI</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_flaming_hot_kimchi.png" class="img-fluid d-block" alt="">
+            <h3>FLAMING HOT KIMCHI</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_jalapeno_jig.png" class="img-fluid d-block" alt="">
+            <h3>JALAPEÑO JIG</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_jezebel_jam.png" class="img-fluid d-block" alt="">
+            <h3>JEZEBEL JAM</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_tonguw_twister.png" class="img-fluid d-block" alt="">
+            <h3>TONGUE TWISTER</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+            <img src="./images/tooted/Monkey_Business_habanero_havoc.png" class="img-fluid d-block" alt="">
+            <h3>HABANERO HAVOC</h3>
+            <h3 class="mb-1">23 €</h3>
+            <button class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            <button class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+        </div>
+    </div>
+</div>
+<div class="row mr-md-0" style="background-color:#FF99A3;">
+    <div class="col-md-5 col-sm-12">
+        <div class="image-container">
+            <img src="./images/index/Monkey_Business_testimonials.jpg" class="img-fluid d-block" alt="">
+            <div class="overlay"></div>
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-12 text-center">
+        <h2>Testimonials</h2>
+        <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner w-75 mr-auto ml-auto">
+                <div class="carousel-item active">
+                    <p>“Such good much wow sauces!
+                        Love the spices. Vibrant colours and flavour! I don’t think I’ve ever tasted such flavours when trying your hot sauce.”</p>
+                    <p>- Karen</p>
+                </div>
+                <div class="carousel-item">
+                    <p>“Such good much wow sauces!
+                        Love the spices. Vibrant colours and flavour! I don’t think I’ve ever tasted such flavours when trying your hot sauce.”</p>
+                    <p>- Karen</p>
+                </div>
+                <div class="carousel-item">
+                    <p>“Such good much wow sauces!
+                        Love the spices. Vibrant colours and flavour! I don’t think I’ve ever tasted such flavours when trying your hot sauce.”</p>
+                    <p>- Karen</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev text-dark" style="background-color: transparent;border:none;height:200px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <img src="./images/mdi_chevron-left.svg" alt="previous" />
+            </button>
+            <button class="carousel-control-next text-dark" style="background-color: transparent;border:none;height:200px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <img src="./images/mdi_chevron-right.svg" alt="next" />
+            </button>
+        </div>
+    </div>
+</div>
+<div class="row mr-md-0 ml-3 mt-5 mb-5">
+    <div class="col-12">
+        <h2 class="d-inline-block">RECIPES</h2>
+        <button class="btn btn-secondary d-inline-block float-right mr-3">Browse all recipes</button>
+    </div>
+
+</div>
+
+<footer class="bg-dark pt-3 pb-3">
+    <div class="footer-container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <img src="images/monkey_business_logo.svg" alt="logo" class="d-block" height="39">
+                <a href="tooted.html" class="mt-3 text-white d-block">Shop</a>
+                <a href="shipping.html" class="mt-1 text-white d-block">Shipping details</a>
+                <a href="retseptid.html" class="mt-1 text-white d-block">Recipes</a>
+                <a href="#" class="mt-1 text-white d-block">Help and FAQ</a>
+                <a href="#" class="mt-1 text-white d-block">About</a>
+                <a href="#" class="mt-1 text-white d-block">Privacy Policy and Terms & Conditions</a>
+                <div class="mt-3 text-white">
+                    Get in touch: <a href="mailto:johan@monkeybusiness.com" class="text-white">johan@monkeybusiness.com</a>
+                </div>
+            </div>
+            <div class="col-md-5 offset-md-2 col-sm-12">
+                <p class="text-white mb-3">
+                    Subscribe to our newsletter for promotions, recipes, and more!
+                </p>
+                <div class="input-group mb-3 bg-white subscribe-input">
+                    <input type="text" class="form-control h-auto pr-0" placeholder="Enter your email address" aria-label="Enter your email address" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Submit</button>
+                </div>
+                <div class="form-check mb-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label text-white" for="flexCheckDefault">
+                        I agree to the privacy policy
+                    </label>
+                </div>
+                <p class="text-white">
+                    Stay spicy with us<br>
+                    <img src="images/mdi_facebook.svg" class="img-fluid mr-1" alt="">
+                    <img src="images/mdi_instagram.svg" class="img-fluid" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
