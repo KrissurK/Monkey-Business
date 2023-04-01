@@ -2,7 +2,7 @@
 
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
     --bs-offcanvas-zindex: 1045;
-    --bs-offcanvas-width: 400px;
+    --bs-offcanvas-width: 500px;
     --bs-offcanvas-height: 30vh;
     --bs-offcanvas-padding-x: 1rem;
     --bs-offcanvas-padding-y: 1rem;

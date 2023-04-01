@@ -175,7 +175,8 @@ ul.list-dashed li::before {
 
 .amount-input input.form-control{
     background: transparent;
-    border: 1px solid #EE5C67;
+    border-top: 1px solid #EE5C67;
+    border-bottom: 1px solid #EE5C67;
     color: #EE5C67;
     text-align: center;
     width: 50px;
@@ -183,4 +184,25 @@ ul.list-dashed li::before {
     flex: none;
     padding: 0;
     height: auto;
+}
+
+.amount-input .input-group-prepend .btn{
+    border-right: none;
+}
+.amount-input .input-group-append .btn{
+    border-left: none;
+}
+
+.offcanvas .amount-input{
+    height: 36px;
+}
+
+.carousel-recipes .carousel-item img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.carousel-recipes .carousel-control-next, .carousel-recipes .carousel-control-prev {
+    bottom: 35%;
+    width: 10%;
 }
