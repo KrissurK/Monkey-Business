@@ -1,94 +1,168 @@
-body{
-    font-family: 'Quicksand', sans-serif;
-    background-color: #CFCFCF;
-}
-
 .text-passion{
     font-family: 'Passion One', cursive;
 }
-
-.bg-accent-black{
-    background: #1A1A1A;
+.text-comfortaa{
+    font-family: 'Comfortaa', cursive;
+}
+.text-quicksand{
+    font-family: 'Quicksand', sans-serif;
 }
 
-.navbar-brand img{
-    margin-left:  48px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+.background-pink{
+    background-color: #FF99A3;
+}
+.background-light-pink{
+    background-color: #F4D5D8;
 }
 
-.nav-link{
-    color: #F4F4FA;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 5px;
-    line-height: 22px;
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+input{
+    font-family: 'Quicksand', sans-serif;
+    color:#1A1A1A;
+}
+input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    color: #AFB4B8;
 }
 
-.nav-link:hover{
-    color: #F4F4FA;
+h1,h2,h3,h5{
+    font-family: 'Passion One', cursive;
+    letter-spacing: 0.25rem;
 }
 
-.nav-link.dropdown-toggle::after{
-    display: none;
+h1,h2{
+    font-weight: 700;
+}
+h4{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
 }
 
-.nav-extra{
-    margin-right: 43px;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.nav-extra-item{
-    padding: 0 5px;
-    text-decoration: none;
+ol {
+    padding-left: 16px;
 }
 
-.hero img{
-    height: 569px;
+ul.list-dashed li::before {
+    content: "-";
+    padding-right: 8px;
+    color: #1A1A1A;
+}
+
+.main-carousel .carousel-item{
+    height: 700px;
+}
+
+.main-carousel .carousel-item .image-container{
+    height: 100%;
+}
+
+.main-carousel .carousel-item img{
     object-fit: cover;
+}
+
+.main-carousel .carousel-caption{
+    left:50px;
+
+}
+.main-carousel .carousel-caption h1{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 99px;
+    letter-spacing: 0.1em;
+}
+.main-carousel .carousel-caption p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.testimonials .carousel .carousel-item{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.image-container {
+    position: relative;
+}
+.image-container img{
     width: 100%;
 }
-
-.hero-text{
-    bottom: 50px;
-    left: 50px;
-    color: #FEBEC4;
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
 }
 
-h1{
-    color: #FEBEC4;
-    font-size: 75px;
-    letter-spacing: 8px;
+.testimonials .image-container{
+    height: 100%;
+}
+.testimonials .image-container img{
+    height: 100%;
+    object-fit: cover;
 }
 
-h2{
-    font-family: 'Passion One', cursive;
-    color: #1A1A1A;
-    font-size: 35px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    line-height: 26px;
+.text-larger{
+    font-size: 1.1rem;
+}
+
+.subscribe-input{
+    border-radius: 100rem;
+    border: 1px solid #EE5C67;
+}
+
+.subscribe-input input{
+    border: none;
+}
+
+.footer-container{
+    max-width: 1150px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .btn{
-    border-radius: 100px;
-    font-weight: 500;
-    padding: 5px 35px;
+    letter-spacing: 0.2rem;
 }
-
-.btn-filled{
-    font-family: 'Passion One', cursive;
-    background: #EE5C67;
-    color: #F4F4FA;
-    font-size: 17px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    line-height: 26px;
-}
-
-.btn-border{
-    background: #CFCFCF;
+.btn-secondary{
+    border: 1px solid #EE5C67;
     color: #EE5C67;
-    border-color: #EE5C67;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+}
+.btn-secondary:hover{
+    color: #FFFFFF;
+    background-color: #EE5C67;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+}
+
+.nav-item .dropdown-menu{
+    min-width: 20rem;
+}
+.nav-item .dropdown-item{
+    height: 70px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: 0.1em;
 }
