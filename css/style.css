@@ -18,6 +18,16 @@
     line-height: 25px;
     letter-spacing: 0.1em;
 }
+.text-cart-subheading{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+.delivery-option label{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
 .background-pink{
     background-color: #FF99A3;
 }
@@ -175,7 +185,7 @@ ul.list-dashed li::before {
 .navbar{
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 10;
 }
 
 .nav-link{
@@ -183,12 +193,10 @@ ul.list-dashed li::before {
     letter-spacing: 0.2em;
 }
 
-/*.nav-item.dropdown:hover .dropdown-menu{
-    display: block;
-}*/
-
 .nav-item .dropdown-menu{
     min-width: 20rem;
+    padding: 0;
+    margin-top: 16px;
 }
 .nav-item .dropdown-item{
     height: 70px;
@@ -289,8 +297,38 @@ ul.list-dashed li::before {
     border-radius: 8px;
 }
 .basket-form input[type="text"]::placeholder{
-    background-color: transparent;
+    color: #6C757D;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    top:16px;
+    left:16px;
+}
+
+.delivery-row{
+    color: #6C757D;
+}
+.delivery-row.active{
     color: #1A1A1A;
+}
+
+.delivery-row .delivery-option{
+    border: 1px solid #6C757D;
+    border-radius: 8px;
+}
+.delivery-row .delivery-option select{
+    background-color: transparent;
+    color: #6C757D;
     height: 65px;
     border-radius: 8px;
+    border-color: #6C757D;
+}
+.delivery-row.active .delivery-option{
+    border: 3px solid #1A1A1A;
+    border-radius: 8px;
+}
+.delivery-row.active .delivery-option select{
+    color: #1A1A1A;
+    border-color: #1A1A1A;
 }

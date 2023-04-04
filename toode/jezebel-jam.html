@@ -72,9 +72,6 @@
         </ul>
     </div>
     <div class="nav-extra">
-        <a class="nav-extra-item">
-            <img src="../images/mdi_magnify.svg" />
-        </a>
         <a data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample" class="nav-extra-item ml-2">
             <img src="../images/ic_outline-shopping-bag.svg" />
         </a>
@@ -180,7 +177,7 @@
                         <button class="btn btn-secondary" type="button">+</button>
                     </div>
                 </div>
-                <button class="btn btn-primary col-sm-6">BUY NOW</button>
+                <button data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"  class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
             </div>
         </div>
     </div>
@@ -191,35 +188,35 @@
             <a href="../toode/spicy-kimchi.html">
                 <img src="../images/tooted/Monkey_Business_spicy_kimchi.png" class="img-fluid d-block" alt="Monkey_Business_spicy_kimchi">
             </a>
-            <h3>SPICY KIMCHI</h3>
+            <h3><a class="text-dark text-decoration-none" href="../toode/spicy-kimchi.html">SPICY KIMCHI</a></h3>
             <h3 class="mb-1">17 €</h3>
             <button href="../toode/spicy-kimchi.html" class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
-            <button href="../toode/spicy-kimchi.html" class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+            <button data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"  class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="../toode/tongue-twister.html">
                 <img src="../images/tooted/Monkey_Business_tongue_twister.png" class="img-fluid d-block" alt="Monkey_Business_tongue_twister">
             </a>
-            <h3>TONGUE TWISTER</h3>
+            <h3><a class="text-dark text-decoration-none" href="../toode/tongue-twister.html">TONGUE TWISTER</a></h3>
             <h3 class="mb-1">15 €</h3>
             <button href="../toode/tongue-twister.html" class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
-            <button href="../toode/tongue-twister.html" class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+            <button data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"  class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="../toode/jalapeno-jig.html">
                 <img src="../images/tooted/Monkey_Business_jalapeno_jig.png" class="img-fluid d-block" alt="Monkey_Business_jalapeno_jig">
             </a>
-            <h3>JALAPEÑO JIG</h3>
+            <h3><a class="text-dark text-decoration-none" href="../toode/jalapeno-jig.html">JALAPEÑO JIG</a></h3>
             <h3 class="mb-1">15 €</h3>
             <button href="../toode/jalapeno-jig.html" class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
-            <button href="../toode/jalapeno-jig.html" class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
+            <button data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvasExample"  class="btn btn-primary d-block ml-auto mr-auto mb-1">BUY NOW</button>
         </div>
     </div>
 </div>
 <div class="row mr-md-0 ml-3 mt-5 mb-5">
     <div class="col-12 mb-3">
         <h2 class="d-inline-block">RECIPES</h2>
-        <button class="btn btn-secondary d-inline-block float-right mr-3">Browse all recipes</button>
+        <button href="../retseptid.html" class="btn btn-secondary d-inline-block float-right mr-3">Browse all recipes</button>
     </div>
     <div id="carouselExampleControlsRecipes" class="carousel slide carousel-recipes ml-2 mr-2">
         <div class="carousel-inner">
@@ -229,7 +226,9 @@
                         <div class="row mr-2">
                             <div class="col-xs-12">
                                 <div class="image-container">
-                                    <img src="../images/retseptid/Monkey_Business_vietnamese_bun_cha.jpg" class="img-fluid d-block" alt="Monkey_Business_vietnamese_bun_cha">
+                                    <a href="../retsept/vietnamiese-bun-cha.html">
+                                        <img src="../images/retseptid/Monkey_Business_vietnamese_bun_cha.jpg" class="img-fluid d-block" alt="Monkey_Business_vietnamese_bun_cha">
+                                    </a>
                                     <div class="overlay"></div>
                                 </div>
                             </div>
@@ -237,8 +236,8 @@
                         <div class="row mt-3">
                             <div class="col-sm-6 col-xs-12">
                                 <p class="font-weight-bold">
-                                    Vietnamese bun cha
-                                    with sticky spicy tofu
+                                    <a href="../retsept/vietnamiese-bun-cha.html" class="text-dark text-decoration-none">Vietnamese bun cha
+                                        with sticky spicy tofu</a>
                                 </p>
                             </div>
                         </div>
@@ -250,13 +249,15 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="btn btn-secondary d-block mb-1">Read more</button>
+                        <button href="../retsept/vietnamiese-bun-cha.html" class="btn btn-secondary d-block mb-1">Read more</button>
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="row mr-2">
                             <div class="col-xs-12">
                                 <div class="image-container">
-                                    <img src="../images/retseptid/Monkey_Business_retsept_insanity_burger.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_insanity_burger">
+                                    <a href="../retsept/insanity-burger.html">
+                                        <img src="../images/retseptid/Monkey_Business_retsept_insanity_burger.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_insanity_burger">
+                                    </a>
                                     <div class="overlay"></div>
                                 </div>
                             </div>
@@ -264,7 +265,7 @@
                         <div class="row mt-3">
                             <div class="col-sm-6 col-xs-12">
                                 <p class="font-weight-bold">
-                                    Insanity Burger
+                                    <a href="../retsept/insanity-burger.html" class="text-dark text-decoration-none">Insanity Burger</a>
                                 </p>
                             </div>
                         </div>
@@ -275,7 +276,7 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="btn btn-secondary d-block mb-1">Read more</button>
+                        <button href="../retsept/insanity-burger.html" class="btn btn-secondary d-block mb-1">Read more</button>
                     </div>
                 </div>
             </div>
@@ -285,7 +286,9 @@
                         <div class="row mr-2">
                             <div class="col-xs-12">
                                 <div class="image-container">
-                                    <img src="../images/retseptid/Monkey_Business_retsept_lemon_sole.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_lemon_sole">
+                                    <a href="../retsept/lemon-sole.html">
+                                        <img src="../images/retseptid/Monkey_Business_retsept_lemon_sole.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_lemon_sole">
+                                    </a>
                                     <div class="overlay"></div>
                                 </div>
                             </div>
@@ -293,8 +296,8 @@
                         <div class="row mt-3">
                             <div class="col-sm-6 col-xs-12">
                                 <p class="font-weight-bold">
-                                    Lemon sole with chipotle
-                                    & ancho chilli recado
+                                    <a href="../retsept/lemon-sole.html" class="text-dark text-decoration-none">Lemon sole with chipotle
+                                        & ancho chilli recado</a>
                                 </p>
                             </div>
                         </div>
@@ -305,13 +308,15 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="btn btn-secondary d-block mb-1">Read more</button>
+                        <button href="../retsept/lemon-sole.html" class="btn btn-secondary d-block mb-1">Read more</button>
                     </div>
                     <div class="col-sm-6 col-xs-12">
                         <div class="row mr-2">
                             <div class="col-xs-12">
                                 <div class="image-container">
-                                    <img src="../images/retseptid/Monkey_Business_retsept_hungover_noodles.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_hungover_noodles">
+                                    <a href="../retsept/hangover-noodles.html">
+                                        <img src="../images/retseptid/Monkey_Business_retsept_hungover_noodles.jpg" class="img-fluid d-block" alt="Monkey_Business_retsept_hungover_noodles">
+                                    </a>
                                     <div class="overlay"></div>
                                 </div>
                             </div>
@@ -319,7 +324,7 @@
                         <div class="row mt-3">
                             <div class="col-sm-6 col-xs-12">
                                 <p class="font-weight-bold">
-                                    Hangover Noodles
+                                    <a href="../retsept/hangover-noodles.html" class="text-dark text-decoration-none">Hangover Noodles</a>
                                 </p>
                             </div>
                         </div>
@@ -331,16 +336,16 @@
                                 </p>
                             </div>
                         </div>
-                        <button class="btn btn-secondary d-block mb-1">Read more</button>
+                        <button href="../retsept/hangover-noodles.html" class="btn btn-secondary d-block mb-1">Read more</button>
                     </div>
                 </div>
             </div>
         </div>
         <button class="carousel-control-prev text-dark" style="background-color: transparent;border:none;" type="button" data-bs-target="#carouselExampleControlsRecipes" data-bs-slide="prev">
-            <img src="../images/mdi_chevron-left.svg" alt="previous" />
+            <img src="images/mdi_chevron-left.svg" alt="previous" />
         </button>
         <button class="carousel-control-next text-dark" style="background-color: transparent;border:none;" type="button" data-bs-target="#carouselExampleControlsRecipes" data-bs-slide="next">
-            <img src="../images/mdi_chevron-right.svg" alt="next" />
+            <img src="images/mdi_chevron-right.svg" alt="next" />
         </button>
     </div>
 </div>
@@ -354,7 +359,7 @@
                 <a href="../retseptid.html" class="mt-1 text-white d-block">Recipes</a>
                 <a href="../help-and-FAQ.html" class="mt-1 text-white d-block">Help and FAQ</a>
                 <a href="../about.html" class="mt-1 text-white d-block">About</a>
-                <a href="../pricacy-and-terms-and-conditions.html" class="mt-1 text-white d-block">Privacy Policy and Terms & Conditions</a>
+                <a href="../privacy-and-terms-and-conditions.html" class="mt-1 text-white d-block">Privacy Policy and Terms & Conditions</a>
                 <div class="mt-3 text-white">
                     Get in touch: <a href="mailto:johan@monkeybusiness.com" class="text-white">johan@monkeybusiness.com</a>
                 </div>
