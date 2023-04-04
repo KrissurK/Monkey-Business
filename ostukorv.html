@@ -164,10 +164,11 @@
     </div>
     <div class="col-12">
         <div class="row">
-            <div class="col-8 pl-5">
+            <div class="col-xl-8 col-xs-12 pl-5 mb-5">
                 <div class="row mt-3 mb-2">
                     <div class="col-12 pl-0">
-                        <span class="basket-step text-light bg-dark d-inline-block text-center">1</span> <span class="text-cart-heading">Shopping Cart</span>
+                        <span class="basket-step text-light bg-dark d-inline-block text-center">1</span>
+                        <span class="text-cart-heading">Shopping Cart</span>
                     </div>
                 </div>
                 <div class="row border-left border-dark">
@@ -249,11 +250,36 @@
                 </div>
                 <div class="row mt-3 mb-2">
                     <div class="col-12 pl-0">
-                        <span class="basket-step text-light bg-dark d-inline-block text-center">2</span> <span class="text-cart-heading">Delivery</span>
+                        <span class="basket-step text-light bg-dark d-inline-block text-center">2</span>
+                        <span class="text-cart-heading">Delivery</span>
                     </div>
                 </div>
-                <div class="row border-left border-dark">
-                    SIIA TULEB AAAAAAAAAAAÄAÄAÄAÄÄAÄAÄÄ!!!!!!
+                <div class="row border-left border-dark basket-form">
+                    <div class="col-12">
+                        <div class="row mb-2">
+                            <div class="col-6">
+                                <input class="form-control border-dark" type="text" placeholder="First and last name">
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control border-dark" type="text" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-6">
+                                <input class="form-control border-dark" type="text" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                    <label class="form-check-label text-dark" for="flexCheckDefault3">
+                                        Email me with news and offers
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="row mt-3 mb-2">
                     <div class="col-12 pl-0">
@@ -265,7 +291,8 @@
                 </div>
                 <div class="row mt-3 mb-2">
                     <div class="col-12 pl-0">
-                        <span class="basket-step text-light bg-dark d-inline-block text-center">4</span> <span class="text-cart-heading">Checkout</span>
+                        <span class="basket-step text-light bg-dark d-inline-block text-center">4</span>
+                        <span class="text-cart-heading">Checkout</span>
                     </div>
                 </div>
                 <div class="row border-left border-dark">
@@ -277,56 +304,58 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 text-cart-heading">
+                    <div class="col-12 text-cart-heading mb-3">
                         SubTotal: 49 €
                     </div>
                     <div class="col-12">
-                        <button href="ostukorv-lopetatud.html" class="btn btn-primary d-block mb-1">
-                            <img src="images/paypal.svg"/>
+                        <button href="ostukorv-lopetatud.html" class="btn btn-primary d-block mb-1 btn-checkout">
+                            <img src="images/paypal.png" />
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-3 background-pink p-3">
-                <div class="row text-cart-heading mb-3">
-                    <div class="col-12 text-cart-heading">
-                        Summary
+            <div class="col-3">
+                <div class="background-pink p-3 position-sticky basket-summary">
+                    <div class="row text-cart-heading mb-3">
+                        <div class="col-12 text-cart-heading">
+                            Summary
+                        </div>
                     </div>
-                </div>
-                <div class="row border-bottom border-dark mb-3 pb-3">
-                    <div class="col-8 mb-1">
-                        Subtotal
+                    <div class="row border-bottom border-dark mb-3 pb-3">
+                        <div class="col-8 mb-1">
+                            Subtotal
+                        </div>
+                        <div class="col-4">
+                            99 €
+                        </div>
+                        <div class="col-8">
+                            Shipping
+                        </div>
+                        <div class="col-4">
+                            2.99 €
+                        </div>
                     </div>
-                    <div class="col-4">
-                        99 €
+                    <div class="row border-bottom border-dark mb-3 pb-3">
+                        <div class="col-8 mb-1">
+                            Total without VAT
+                        </div>
+                        <div class="col-4">
+                            81.59 €
+                        </div>
+                        <div class="col-8">
+                            VAT
+                        </div>
+                        <div class="col-4">
+                            20.60 €
+                        </div>
                     </div>
-                    <div class="col-8">
-                        Shipping
-                    </div>
-                    <div class="col-4">
-                        2.99 €
-                    </div>
-                </div>
-                <div class="row border-bottom border-dark mb-3 pb-3">
-                    <div class="col-8 mb-1">
-                        Total without VAT
-                    </div>
-                    <div class="col-4">
-                        81.59 €
-                    </div>
-                    <div class="col-8">
-                        VAT
-                    </div>
-                    <div class="col-4">
-                        20.60 €
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-8 text-cart-heading">
-                        Total
-                    </div>
-                    <div class="col-4">
-                        101.99 €
+                    <div class="row">
+                        <div class="col-8 text-cart-heading">
+                            Total
+                        </div>
+                        <div class="col-4">
+                            101.99 €
+                        </div>
                     </div>
                 </div>
             </div>

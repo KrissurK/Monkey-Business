@@ -114,6 +114,7 @@ ul.list-dashed li::before {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
 }
 
 .testimonials .image-container{
@@ -148,7 +149,13 @@ ul.list-dashed li::before {
 
 .btn{
     letter-spacing: 0.2rem;
+    color: #F4D5D8;
 }
+.btn:hover{
+    background-color: #5B96CD;
+    border-color: #5B96CD;
+}
+
 .btn-secondary{
     border: 1px solid #EE5C67;
     color: #EE5C67;
@@ -156,18 +163,29 @@ ul.list-dashed li::before {
     font-weight: 400;
 }
 .btn-secondary:hover{
-    color: #FFFFFF;
-    background-color: #EE5C67;
+    color: #F4D5D8;
+    background-color: #5B96CD;
+    border-color: #5B96CD;
 }
 
 .dropdown-toggle::after{
     display: none;
 }
 
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .nav-link{
     font-size: 1.2rem;
     letter-spacing: 0.2em;
 }
+
+/*.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+}*/
 
 .nav-item .dropdown-menu{
     min-width: 20rem;
@@ -219,6 +237,16 @@ ul.list-dashed li::before {
     width: 10%;
 }
 
+.basket-summary{
+    top: 74px;
+}
+
+@media screen and (max-width: 1200px) {
+    .basket-summary{
+        display: none;
+    }
+}
+
 .basket-header{
     height: 51px;
 }
@@ -248,4 +276,21 @@ ul.list-dashed li::before {
 .amount-input.amount-input-basket .input-group-prepend .btn, .amount-input.amount-input-basket .input-group-append .btn{
     border-color: #1A1A1A;
     color: #1A1A1A;
+}
+
+.btn-checkout{
+    padding: 0;
+}
+
+.basket-form input[type="text"]{
+    background-color: transparent;
+    color: #1A1A1A;
+    height: 65px;
+    border-radius: 8px;
+}
+.basket-form input[type="text"]::placeholder{
+    background-color: transparent;
+    color: #1A1A1A;
+    height: 65px;
+    border-radius: 8px;
 }
