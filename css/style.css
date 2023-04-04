@@ -10,6 +10,14 @@
 .text-smaller{
     font-size: 12px;
 }
+.text-light{
+    color: #F4F4FA;
+}
+.text-cart-heading{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
 .background-pink{
     background-color: #FF99A3;
 }
@@ -29,6 +37,10 @@ input::placeholder {
 h1,h2,h3,h5{
     font-family: 'Passion One', cursive;
     letter-spacing: 0.25rem;
+}
+
+h3{
+    letter-spacing: 0.1em;
 }
 
 h1,h2{
@@ -205,4 +217,35 @@ ul.list-dashed li::before {
 .carousel-recipes .carousel-control-next, .carousel-recipes .carousel-control-prev {
     bottom: 35%;
     width: 10%;
+}
+
+.basket-header{
+    height: 51px;
+}
+.basket-row{
+    height: 120px;
+}
+.basket-step{
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+    margin-left: -10px;
+}
+.basket-remove{
+    color: #6C757D;
+}
+
+.amount-input.amount-input-basket{
+    height: 43px;
+}
+.amount-input.amount-input-basket input.form-control{
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    color: #1A1A1A;
+}
+
+.amount-input.amount-input-basket .input-group-prepend .btn, .amount-input.amount-input-basket .input-group-append .btn{
+    border-color: #1A1A1A;
+    color: #1A1A1A;
 }
