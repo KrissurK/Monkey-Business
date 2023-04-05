@@ -1,3 +1,7 @@
+body{
+    color: #1A1A1A;
+}
+
 .text-passion{
     font-family: 'Passion One', cursive;
 }
@@ -179,6 +183,13 @@ ul.list-dashed li::before {
     border-color: #5B96CD;
 }
 
+.btn-outline-primary{
+    color: #EE5C67;
+}
+.btn-outline-primary:hover{
+    color: #F4D5D8;
+}
+
 .dropdown-toggle::after{
     display: none;
 }
@@ -186,7 +197,7 @@ ul.list-dashed li::before {
 .navbar{
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 100;
 }
 
 .nav-link{
