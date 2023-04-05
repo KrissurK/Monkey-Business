@@ -80,6 +80,7 @@ ul.list-dashed li::before {
 
 .main-carousel .carousel-item{
     height: 700px;
+    max-height: 85vh;
 }
 
 .main-carousel .carousel-item .image-container{
