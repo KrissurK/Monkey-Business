@@ -18,7 +18,7 @@
             <img src="images/monkey_business_logo.svg" alt="monkey_business_logo" height="39">
         </a>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -138,9 +138,9 @@
                     <img src="images/tooted/Monkey_Business_spicy_kimchi.png" class="img-fluid d-block" alt="Monkey_Business_spicy_kimchi">
                 </a>
                 <h3><a class="text-dark text-decoration-none" href="toode/spicy-kimchi.html">SPICY KIMCHI</a></h3>
-                    <button href="toode/spicy-kimchi.html" class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
-                </div>
-                <div class="col-6 text-center">
+                <button href="toode/spicy-kimchi.html" class="btn btn-secondary d-block ml-auto mr-auto mb-1">Learn more</button>
+            </div>
+            <div class="col-6 text-center">
                 <a href="toode/habanero-havoc.html">
                     <img src="images/tooted/Monkey_Business_habanero_havoc.png" class="img-fluid d-block" alt="Monkey_Business_habanero_havoc">
                 </a>
@@ -323,15 +323,24 @@
                     <div class="col-12">
                         <div class="row mb-2">
                             <div class="col-6">
-                                <input class="form-control border-dark" type="text" placeholder="First and last name">
+                                <div class="position-relative input-wrapper">
+                                    <label for="name-input" class="form-label">First and last name</label>
+                                    <input class="form-control border-dark" id="name-input" type="text">
+                                </div>
                             </div>
                             <div class="col-6">
-                                <input class="form-control border-dark" type="text" placeholder="Phone">
+                                <div class="position-relative input-wrapper">
+                                    <label for="name-input" class="form-label">Phone</label>
+                                    <input class="form-control border-dark" type="text">
+                                </div>
                             </div>
                         </div>
                         <div class="row mb-2">
                             <div class="col-6">
-                                <input class="form-control border-dark" type="text" placeholder="Email">
+                                <div class="position-relative input-wrapper">
+                                    <label for="name-input" class="form-label">Email</label>
+                                    <input class="form-control border-dark" type="text">
+                                </div>
                             </div>
                         </div>
                         <div class="row">
